@@ -1,0 +1,33 @@
+.home-container {
+  height: 100vh;
+  width: 100%;
+  background-image: url("https://images.unsplash.com/photo-1606813908928-7c4dd6791e87"); /* o usa una local: './fondo.jpg' */
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-overlay {
+    width: 700px;
+  background-color: rgba(0, 0, 0, 0.6); /* oscurece para mejor contraste */
+  padding: 3rem;
+  border-radius: 1rem;
+  text-align: center;
+}
+
+.home-title {
+  color: white;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.home-input {
+  padding: 0.75rem 1.5rem;
+  font-size: 1.2rem;
+  border-radius: 0.5rem;
+  border: none;
+  width: 100%;
+  max-width: 400px;
+}

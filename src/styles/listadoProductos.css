@@ -1,0 +1,96 @@
+.listado-productos-container {
+  padding: 150px;
+}
+
+.listado-productos-titulo {
+  padding-left: 130px;
+  font-size: 1.8rem;
+  margin-bottom: 16px;
+  color: #222;
+}
+
+.listado-productos-lista {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centra los <li> horizontalmente */
+}
+
+.listado-productos-item {
+  width: 100%;
+  display: flex;
+  align-items:center;
+  gap: 16px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  /* margin-bottom: 20px; */
+  background-color: #fdfdfd;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.listado-productos-imagen {
+  width: 100px;
+  height: auto;
+  object-fit: contain;
+  margin: 10px 60px
+}
+
+.listado-productos-info h4 {
+  margin: 0 0 28px;
+  font-size: 1.6rem;
+  color: #333;
+}
+
+.listado-productos-info p {
+  margin: 4px 0;
+  color: #555;
+}
+
+.price {
+    font-size: 50px;
+}
+
+.titulo-searchbar {
+  display: flex;
+  flex-direction: row;
+}
+
+.searchbar {
+margin-left: auto;
+margin-right: 130px;
+margin-bottom: 20px;
+}
+
+.listado-productos-lista-item {
+  width: 80%;
+  margin-bottom: 20px;
+}
+
+/* Botón como bloque principal */
+.listado-productos-boton {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  width: 100%;
+  min-height: 150px; /* Ajustá según necesidad */
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  background-color: #fdfdfd;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  cursor: pointer;
+  text-align: left;
+}
+
+
+/* Eliminar el borde nativo del botón */
+.listado-productos-boton:focus {
+  outline: none;
+}
+
+.listado-productos-boton:hover {
+  background-color: #f1f1f1;
+}
