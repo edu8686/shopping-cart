@@ -1,12 +1,80 @@
-# React + Vite
+Shopping Cart
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Proyecto de carrito de compras online desarrollado con React + Vite.
 
-Currently, two official plugins are available:
+- Descripción
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Este proyecto permite a los usuarios navegar por una lista de productos, añadirlos a un carrito, ver el resumen del carrito, modificar cantidades y eliminar productos. Es un excelente punto de partida para una tienda online básica o un módulo de e-commerce más completo.
 
-## Expanding the ESLint configuration
+- Tecnologías usadas
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+React
+
+Vite
+
+JavaScript (ES6+)
+
+HTML / CSS
+
+ESLint (configuración básica)
+
+(Posible extensión: almacenamiento en localStorage o backend para persistencia)
+
+- Instalación y ejecución
+
+Clona este repositorio
+
+git clone https://github.com/edu8686/shopping-cart.git
+
+
+Entra al directorio del proyecto
+
+cd shopping-cart
+
+
+Instala las dependencias
+
+npm install
+
+
+Ejecuta la aplicación en modo desarrollo
+
+npm run dev
+
+
+Abre en tu navegador la dirección que aparecerá en consola (usualmente http://localhost:3000).
+
+- Estructura del proyecto
+shopping-cart/
+├─ public/
+├─ src/
+│  ├─ components/        ← componentes React (por ejemplo: ProductList, Cart, CartItem)
+│  ├─ context/           ← (opcional) contexto para el estado del carrito
+│  ├─ styles/            ← archivos CSS o módulos de estilos
+│  ├─ App.jsx            ← componente raíz
+│  └─ index.jsx          ← punto de entrada
+├─ .gitignore
+├─ package.json
+├─ vite.config.js
+└─ README.md
+
+✅ Funcionalidades
+
+Mostrar una lista de productos con nombre, imagen, precio, etc.
+
+Añadir productos al carrito.
+
+Ver el contenido del carrito: productos, cantidades, precio total.
+
+Cambiar la cantidad de un producto en el carrito o eliminarlo.
+
+Actualización dinámica del total conforme se modifican cantidades.
+
+(Opcional) Persistencia del estado del carrito mediante localStorage.
+
+(Opcional) Diseño responsive para dispositivos móviles.
+
+
+📄 Licencia
+
+Este proyecto está bajo la licencia MIT. Puedes adaptarlo y usarlo libremente para tus fines personales o educativos.
